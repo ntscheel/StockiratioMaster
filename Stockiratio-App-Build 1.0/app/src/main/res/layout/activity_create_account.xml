@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myfirstapplication.CreateAccount">
+
+    <Button
+        android:id="@+id/create_account_button"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/create_account_button"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/create_account_passConfirm"
+        android:layout_centerHorizontal="true"
+        android:onClick="goToSignIn"/>
+
+    <EditText
+        android:id="@+id/create_account_FN"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/First_Name_hint"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/create_account_LN"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/create_account_FN"
+        android:ems="10"
+        android:hint="@string/Last_Name_hint"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/create_account_username"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/create_account_LN"
+        android:ems="10"
+        android:hint="@string/Username_hint"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/create_account_password"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/create_account_username"
+        android:ems="10"
+        android:hint="@string/Password_hint"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/create_account_passConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/create_account_password"
+        android:ems="10"
+        android:hint="@string/Confirm_Pass_hint"
+        android:inputType="textPassword" />
+
+</RelativeLayout>

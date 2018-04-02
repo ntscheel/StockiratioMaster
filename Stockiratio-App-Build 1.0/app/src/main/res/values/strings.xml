@@ -1,0 +1,33 @@
+<resources>
+
+    <!--Main_activity Strings (Searchbar)-->
+    <string name="app_name">Stockiratio</string>
+    <string name="button_send">Send</string>
+    <string name="enter_a_symbol">Enter a Stock Symbol:</string>
+    <string name="title_activity_login_screen">Stockiratio</string>
+    <!--Main_Activity Hints-->
+    <string name="searchBar">Enter Stock Symbol Here</string>
+
+    <!--LoginScreen_activity Strings-->
+    <string name="prompt_Username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="CreateAccount">Create Account</string>
+
+    <!--Create Account Activity Strings-->
+    <string name="create_account_button">Submit</string>
+    <!--Create Account Hints-->
+    <string name="First_Name_hint">First Name</string>
+    <string name="Last_Name_hint">Last Name</string>
+    <string name="Username_hint">Username</string>
+    <string name="Password_hint">Password</string>
+    <string name="Confirm_Pass_hint">Confirm Password</string>
+</resources>
