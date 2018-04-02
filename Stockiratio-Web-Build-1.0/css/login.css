@@ -1,0 +1,21 @@
+/*
+// Primary color: 109,0,245
+// Secondary color: 193,255,255
+// Tertiary color: 197,232,213
+*/
+
+ p.login-error {
+     color: red;
+     display: none;
+     text-align: center;
+ }
+
+.vertical-container {
+    position: relative;
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+
+h1.title-header {
+    text-align: center;
+}
